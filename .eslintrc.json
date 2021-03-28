@@ -1,0 +1,4 @@
+{
+  "extends": "@lnu",
+  "parser": "babel-eslint"
+}

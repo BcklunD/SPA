@@ -1,0 +1,250 @@
+html,
+body {
+  margin: 0;
+  background-color: #407880;
+  background-image: url('img/bg.jpg');
+  background-size: cover;
+}
+
+main {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#icons {
+  float: left;
+  width: 5%;
+  margin-left: 20px;
+}
+
+#icons img { width: 100%; }
+
+#icons img:active { opacity: 0.7; }
+
+#icons p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: larger;
+  margin: 0;
+  text-align: center;
+}
+
+[id^="icon"] {
+  padding-top: 20px;
+}
+
+[id^="memoryNum"] {
+  border: solid 2px black;
+  width: 600px;
+  height: 440px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  float: left;
+  background-color: rgb(141, 104, 3);
+  text-align: center;
+  color: gold;
+}
+
+[id^="chatNum"] {
+  border: solid 2px black;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  float: left;
+  background-color: rgb(4, 202, 202);
+}
+
+[id^="hangmanNum"] {
+  border: solid 2px black;
+  width: 1000px;
+  height: 480px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  float: left;
+  background-color: rgb(0, 100, 100);
+}
+
+#applications {
+  position: relative;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+#topbar {
+  border-bottom: solid 2px black;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgb(59, 59, 59);
+  width: 100%;
+  height: 30px;
+}
+
+#topbar button {
+  font-family: "Lucida Console", Monaco, monospace;
+  width: 30px;
+  height: 100%;
+  float: right;
+  color: white;
+  font-size: x-large;
+  background-color: rgb(59, 59, 59);
+  border: none;
+}
+
+#topbar button:hover { background-color: red; }
+
+#topbar img {
+  width: 30px;
+  height: 90%;
+  float: left;
+}
+
+#memoryImg { content: url('img/memoryicon.png'); }
+#chatImg { content: url('img/chaticon.png'); }
+#hangmanImg { content: url('img/hangmanicon.png'); }
+
+table {
+  width: 100%;
+}
+
+#memImg {
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+}
+
+#memButton {
+  width: 110px;
+  height: 40px;
+  margin: 10px;
+  border: solid 1px black;
+  color: gold;
+  background-color: rgb(58, 49, 0);
+  font-size: 18px;
+}
+
+#memButton:hover { background-color: rgb(95, 81, 1); }
+
+#memoryInput {
+  margin-bottom: 20px;
+  height: 30px;
+  background-color: gold;
+  font-size: larger;
+  text-align: center;
+  font-weight: bold;
+}
+
+#memoryInput:focus { outline-color: gold; }
+
+#memoryTable {
+  color: rgb(3, 3, 1);
+  font-size: larger;
+}
+
+#hangmanBody {
+  width: 99%;
+  display: table;
+  padding-left: 10px;
+}
+
+[id^="hangmanContent"] {
+  padding-left: 20px;
+  display: table-cell;
+  vertical-align: top;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: rgb(0, 36, 11);
+  width: 60%;
+  font-size: larger;
+}
+
+#hangmanBut {
+  font-size: 20px;
+  background-color: #52cfe2;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border: solid 1px black;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#hangmanBut:hover {
+  background-color: #5de6fc;
+}
+
+#hangmanBody input {
+  text-align: left;
+  font-size: 20px;
+  width: 60px;
+  background-color: #5de6fc;
+  border: solid 1px black;
+  padding: 5px;
+}
+
+#hangmanWrong {
+  padding-top: 100px;
+  text-align: left;
+}
+
+#hangmanInputs {
+  text-align: left;
+  margin-left: 150px;
+}
+
+[id^="hangImg"] img { width: 100%; }
+
+[id^="hangImg"] { padding-top: 40px; }
+
+[id^="chatTextarea"] {
+  background-color: #a3f1fd;
+  border: solid 1px black;
+  height: 79%;
+  margin: 3px;
+  padding: 5px;
+  text-align: left;
+  vertical-align: bottom;
+  width: 94%;
+  overflow-y: scroll;
+}
+
+[id^="chatInput"] {
+  font-size: 18px;
+  margin-left: 2px;
+  vertical-align: bottom;
+  width: 75%;
+}
+
+#chatBut {
+  height: 26px;
+  vertical-align: bottom;
+  margin-left: 3px;
+  width: 20%;
+}
+
+#chatUsername {
+  margin-top: 50px;
+  font-size: 22px;
+  margin-right: 10px;
+  width: 150px;
+}
+
+#chatSubmit { font-size: 20px; }
+
+#changeUsername {
+  font-size: large;
+  margin-top: 1px;
+  margin-left: 3px;
+  width: 57.5%;
+}
+
+#clearLog {
+  font-size: large;
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40%;
+}
